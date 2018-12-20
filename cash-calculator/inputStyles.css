@@ -1,0 +1,53 @@
+input   {
+  width: 130px;
+  height: 55px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  background-color:  #ffffff;
+}
+
+:root {
+  --imgg: "url(img/gb.svg)"; 
+}
+
+.col2{
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input#gbpAmount {
+background-image:url(img/gb.svg);
+background-repeat:no-repeat;
+background-position:8px;
+padding-left: 55px;
+}
+
+input#inputAmount {
+  background-repeat:no-repeat;
+  background-position:8px;
+  padding-left: 55px;
+  /* position:fixed; */
+  }
+  
+input#getCash {
+  width: 295px;
+  height: 55px;
+  border-radius: 5px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(70, 175, 188, 0.4);
+  background-color: #46afbc;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.col {
+  padding-left: 12px;
+}

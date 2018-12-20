@@ -1,0 +1,138 @@
+.input-dropdown {
+   display: inline-block;
+   position: relative; 
+}
+
+.input-dropdown input::placeholder{
+  width: 242px;
+  height: 19px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5c5c5c;
+}
+
+.input-dropdown input[type='text'] {
+  width: 396px;
+  height: 55px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  padding-left: 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  color: #5c5c5c;
+
+}
+
+.input-dropdown input[type='text']:focus
+{
+ /* outline: none;  */
+outline-color: #cddee1 
+}
+
+.placeholder2 {
+  position: absolute;
+  margin: 7px 8px;
+  color: #A3A3A3;
+  cursor: auto;
+  font-size: 14px;
+  top: 7px;
+}
+.small {
+  font-size: 10px;
+}
+#input2 {
+  padding: 5px;
+  font-size: 11pt;
+  position: relative;
+}
+
+.input-dropdown ul {
+  list-style: none;
+  background-color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5c5c5c;
+  height: 280px; 
+  overflow: auto;
+  padding: 18px;
+
+}
+
+.input-dropdown ul > li {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.input-dropdown ul > li.active {
+  background: #e6eeef;
+}
+
+.col-country{
+  width: 260px;
+  position:fixed;
+  z-index:1;
+  border-radius: 5px;
+  border-bottom-right-radius: unset;
+  border-top-right-radius: unset;
+  box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  /*padding for listed elements */ 
+  /* padding-left: -104px;  */
+}
+
+.col-curr{
+  margin-left:260px;
+  border-left: solid;  
+  border-color:#cddee1 ;
+   border-left-width: 1px;
+  width: 136px;
+  position:fixed;
+  z-index:1;  
+  border-radius: 5px;
+  border-bottom-left-radius: unset;
+  border-top-left-radius: unset;
+  box-shadow: 3px 10px 20px -5px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+}
+
+.row{
+  padding-left: 14.5px;
+  position:fixed;
+}
+
+.placeholder2 {
+  width: 156px;
+  margin-left: 224px;
+  position: absolute; 
+  cursor: auto;
+  top: 14px;
+  height: 16px;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+ text-align: right; 
+  color: #5c5c5c;
+  background-color: transparent;
+}
+
+.placeholder2  .queryTime {
+  font-size: 11px;
+  position: relative;
+  color: #8c001a;
+  text-align: left;
+}
